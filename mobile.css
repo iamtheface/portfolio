@@ -1,5 +1,5 @@
 nav {
-    padding: 0 0 0 0;
+    padding: 0;
     height: 4em;
     background-color: #124a75;
 }
@@ -9,7 +9,7 @@ nav {
 }
 
 .banner {
-    padding: 3em;
+    padding: 2em;
     height: 15em;
 }
 
@@ -29,8 +29,6 @@ nav {
     width: 9em;
 }
 
-
-
 .about {
     padding: 2em;
     display: block;
@@ -43,6 +41,10 @@ nav {
 
 .about img {
     width: 100%;
+}
+
+.test-quotes {
+    width: 17em;
 }
 
 .contact {
@@ -59,8 +61,13 @@ nav {
     width: 100%;
 }
 
-.projects div div {
-    width: 30em;
+.projects {
+    padding: 1em;
+}
+
+.project div {
+    width: 35em;
+    height: 20em;
 }
 
 .nav {
@@ -72,7 +79,7 @@ nav {
     z-index: 99;
     padding: 0;
     margin: 0;
-    transition: 3s;
+    transition: 1.5s;
 }
 
 .nav ul{

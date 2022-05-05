@@ -198,7 +198,7 @@ p.author {
 
 .cform input[type="submit"] {
     background-color: #fff;
-    color: #000;
+    color: #124a75;
     font-size: 1em;
     font-weight: b;
     width: 12em;
@@ -224,14 +224,14 @@ p.author {
     font-size: 2em;
 }
 
-.projects div {
+.project {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.projects div div {
-    width: 20em;
+.project div {
+    width: 25em;
     background-color: #124a75;
     padding: 1em;
     margin: 1em;
@@ -239,22 +239,23 @@ p.author {
     display: block;
 }
 
-.projects div div img {
+.project div img {
     height: 70%;
     width: 100%;
 }
 
-.projects div div h4 {
+.project div h4 {
     font-size: 1.2em;
     line-height: 0;
 }
 
-.projects div div p {
+.project div p {
     font-size: 1em;
     color: #ddd;
 }
 
-.projects a {
+.project div a {
+    color: #fff;
     text-decoration: none;
 }
 
