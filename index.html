@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezekiel's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="(max-width:800px)">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header> 
+            <nav>
+            <img src="theface.jpg">
+            <button class="opennav" onclick="opennav()">&#9776;</button> 
+            <ul>
+                <button class="closenav" onclick="closenav()">&times;</button>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="#"><li>Testimonial</li></a>
+            </ul>
+        </nav>
+        <div class="banner">
+            <h3>Hi, I am The Face</h3>
+            <h2>A Front-end Web Developer</h2>
+            <h3>and WordPress Developer</h3>
+        </div>
+    </header>
+    <div class="skill">
+        <img src="icons8.png">
+        Technolgies I Use
+    </div>
+    <div class="skillset">
+        <div><img src="html5.svg"></div>
+        <div><img src="css3.svg"></div>
+        <div><img src="js.svg"></div>
+        <div><img src="bootstrap.svg"></div>
+        <div><img src="wordpress.svg"></div>
+    </div>
+    <div class="about">
+        <div>
+            <h3>About Me</h3>
+            <p>I am Ezekiel A. Tobiloba, nicknamed 'The Face' , A WordPress Developer of 4 years, and a Web Developer of 3 years.</p>
+            <p>I have since built amazing project using HTML, CSS and JavaScript while also creating tens of websites using WordPress.</p>
+            <p>I am currently learning JavaScript 'React' and CSS 'Tailwind' frameworks to enable faster and easier completion of projects while also broadening my knowledge.</p>    
+            <p>This is My Life - One I'm currently having fun in.</p>
+        </div>
+
+            <img src="pakata.jpg">
+    </div>
+    <div class="testimonial">
+        <h3>Testimonial</h3>
+        <div class="test-quotes">
+            <img src="quote-right.svg" alt="">
+            <p>
+                Ezekiel is a great and fantastic guy, Pays outstanding attention to details, was a pleasure working with him.
+            </p>
+            <div class="quote-author">
+                <img src="avatar.png" alt="">
+                <p class="author">Anonymous</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div>
+        <h3>Contact Me!</h3>
+        <p>
+           Reach out to me via my social media links below or send a message through the contact form.</p>
+        <div id="socials">
+            <a href="https://facebook.com/princeabolade.tobilobaezekiel"><img src="facebook.svg"></a>
+            <a href="https://twitter.com/thefacetweets"><img src="twitter.svg"></a>
+            <a href="https://instagram.com/heistheface"><img src="instagram.svg"></a>
+            <a href="https://linkedin.com/in/ezekiel-abolade"><img src="linkedin.svg"></a>
+            <a href="https://wa.me/qr/YALRGMUPOL3YK1"><img src="whatsapp.svg"></a>
+            <a href="https://github.com/iamtheface"><img src="github.svg"></a>
+            <a href="mailto:ezekielabolade@gmail.com"><img src="email.svg"></a>
+        </div>
+        </div>
+        <div class="cform">
+            <form>
+                <input type="text" name="Name" placeholder="Name">
+                <input type="email" name="Email" placeholder="Email">
+                <input type="text" name="Subject" placeholder="Message Title">
+                <textarea placeholder="Send a message"></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </div>
+    <div class="projects">
+        <h3>Recent Projects</h3>
+        <div>
+        <div>
+            <img src="Screenshot2.png">
+            <h4>Virtual Reality</h4>
+            <p>HTML/CSS</p>
+        </div>
+        <div>
+            <img src="Screenshot3.png">
+            <h4>Passion for Food</h4>
+            <p>HTML/CSS</p>
+        </div>
+        <div>
+            <img src="Screenshot4.png">
+            <h4>Fitness</h4>
+            <p>HTML/CSS</p>
+        </div>
+        <div>
+            <img src="Screenshot1.png">
+            <h4>Random</h4>
+            <p>HTML/CSS</p>
+        </div>
+        <div>
+            <img src="manp.png">
+            <h4>Man Up Naija</h4>
+            <p>WordPress</p>
+        </div>
+        <div>
+            <img src="docile.png">
+            <h4>Docile Digital</h4>
+            <p>WordPress</p>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>&copy; 2022, The Face. All rights reserved</p>
+    </footer>
+</body>
+<script>
+    function opennav() {
+        document.querySelector('nav').style.width = '';
+    }
+
+    function closenav() {
+        document.querySelector('nav').style.width = '0px';
+    }
+</script>
+</html>

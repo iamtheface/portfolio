@@ -1,0 +1,111 @@
+nav {
+    padding: 0 1em;
+}
+
+nav ul {
+    display: none;
+}
+
+.banner {
+    padding: 3em;
+    height: 15em;
+}
+
+.banner h3 {
+    font-size: 1.2em;
+    margin-bottom: .7em;
+}
+
+.banner h2 {
+    line-height: 1.5em;
+    font-size: 2em;
+    margin-bottom: .7em;
+}
+
+.skill {
+    padding: 1em;
+    width: 9em;
+}
+
+
+
+.about {
+    padding: 2em;
+    display: block;
+}
+
+.about div {
+    width: 100%;
+}
+
+.about img {
+    width: 100%;
+}
+
+.contact {
+    padding: 2em;
+    display: block;
+}
+
+.cform {
+    width: 100%;
+}
+
+.projects div div {
+    width: 30em;
+}
+
+/*nav {
+    width: 0px;
+    height: 100vh;
+    display: block;
+    padding: 100px 0 0 0;
+    background-color: #124a75;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: 1s;
+}*/
+
+nav ul a li {
+    transition: 0.5s;
+}
+
+nav ul li {
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover li {
+    background-color: #fff;
+    color: ;
+}
+
+.closenav {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 50px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #124a75;
+    box-shadow: 7px 7px 10px #072d4b, -7px -7px 10px #0a2a42;
+    height: 50px;
+    border: none;
+}
+
+.opennav {
+    display: block;
+    width: 60px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #124a75;
+    box-shadow: 3px 3px 5px #072d4b, -3px -3px 5px #0a2a42;
+    height: 60px;
+    border: none;
+}
+
