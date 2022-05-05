@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ezekiel's Portfolio</title>
+    <meta name="Author" content="The Face">
+    <meta name="description" content="Official Portfolio of Ezekiel A. Tobiloba 'The Face'">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap" rel="stylesheet"> 
@@ -17,7 +19,8 @@
     <header> 
             <nav>
             <img src="theface.jpg">
-            <button class="opennav" onclick="opennav()">&#9776;</button> 
+            <button class="opennav" onclick="opennav()">&#9776;</button>
+            <div class="nav" id="nav">
             <ul>
                 <button class="closenav" onclick="closenav()">&times;</button>
                 <a href="#"><li>Home</li></a>
@@ -25,6 +28,7 @@
                 <a href="#"><li>Contact</li></a>
                 <a href="#"><li>Testimonial</li></a>
             </ul>
+        </div>
         </nav>
         <div class="banner">
             <h3>Hi, I am The Face</h3>
@@ -68,7 +72,7 @@
         </div>
     </div>
     <div class="contact">
-        <div>
+        <div class="info">
         <h3>Contact Me!</h3>
         <p>
            Reach out to me via my social media links below or send a message through the contact form.</p>
@@ -83,7 +87,7 @@
         </div>
         </div>
         <div class="cform">
-            <form>
+            <form  action="POST" name="Contact" data-netlify="true" method="POST">
                 <input type="text" name="Name" placeholder="Name">
                 <input type="email" name="Email" placeholder="Email">
                 <input type="text" name="Subject" placeholder="Message Title">
@@ -115,16 +119,19 @@
             <h4>Random</h4>
             <p>HTML/CSS</p>
         </div>
-        <div>
+        <a href="https://manupnaija.com"><div>
             <img src="manp.png">
             <h4>Man Up Naija</h4>
             <p>WordPress</p>
         </div>
+        </a>
+        <a href="https://dociledigital.com">
         <div>
             <img src="docile.png">
             <h4>Docile Digital</h4>
             <p>WordPress</p>
         </div>
+        </a>
     </div>
     </div>
     <footer>
@@ -133,11 +140,11 @@
 </body>
 <script>
     function opennav() {
-        document.querySelector('nav').style.width = '';
+        document.querySelector('#nav').style.width = '100%';
     }
 
     function closenav() {
-        document.querySelector('nav').style.width = '0px';
+        document.querySelector('#nav').style.width = '0';
     }
 </script>
 </html>

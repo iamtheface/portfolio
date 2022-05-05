@@ -1,9 +1,11 @@
 nav {
-    padding: 0 1em;
+    padding: 0 0 0 0;
+    height: 4em;
+    background-color: #124a75;
 }
 
-nav ul {
-    display: none;
+.nav ul {
+    display: block;
 }
 
 .banner {
@@ -36,6 +38,7 @@ nav ul {
 
 .about div {
     width: 100%;
+    margin-bottom: 2em;
 }
 
 .about img {
@@ -47,6 +50,11 @@ nav ul {
     display: block;
 }
 
+.info {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
 .cform {
     width: 100%;
 }
@@ -55,46 +63,62 @@ nav ul {
     width: 30em;
 }
 
-/*nav {
-    width: 0px;
-    height: 100vh;
+.nav {
     display: block;
-    padding: 100px 0 0 0;
+    height: 30em;
+    width: 0;
+    position: absolute;
     background-color: #124a75;
-    position: relative;
-    top: 0;
-    z-index: 1;
+    z-index: 99;
+    padding: 0;
+    margin: 0;
+    transition: 3s;
+}
+
+.nav ul{
+    width: 100%;
+    height: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #124a75;
     overflow: hidden;
     transition: 1s;
-}*/
+}
 
-nav ul a li {
+.nav ul a li {
     transition: 0.5s;
 }
 
-nav ul li {
+.nav ul li {
+    margin-top: 10px;
     display: block;
     padding: 10px;
+    width: ;
 }
 
-nav a:hover li {
+.nav a:hover li {
     background-color: #fff;
-    color: ;
+    color: #124a75;
 }
 
 .closenav {
     position: absolute;
+    float: right;
     display: block;
     top: 0;
     right: 0;
-    width: 50px;
+    width: 60px;
     font-size: 2.5rem;
     font-weight: bold;
     color: #fff;
     background-color: #124a75;
     box-shadow: 7px 7px 10px #072d4b, -7px -7px 10px #0a2a42;
-    height: 50px;
+    height: 60px;
     border: none;
+    margin-bottom: 1em;
 }
 
 .opennav {
@@ -107,5 +131,8 @@ nav a:hover li {
     box-shadow: 3px 3px 5px #072d4b, -3px -3px 5px #0a2a42;
     height: 60px;
     border: none;
+    top: 0;
+    right: 0;
+    position: absolute;
 }
 
