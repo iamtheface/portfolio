@@ -27,6 +27,8 @@
                 <a href="#about"><li>About</li></a>
                 <a href="#contact"><li>Contact</li></a>
                 <a href="#testimonial"><li>Testimonial</li></a>
+                <a href="#projects"><li>Recent Projects</li></a>
+
             </ul>
         </div>
         </nav>
@@ -88,15 +90,15 @@
         </div>
         <div class="cform">
             <form  action="POST" name="Contact" data-netlify="true" method="POST">
-                <input type="text" name="Name" placeholder="Name">
-                <input type="email" name="Email" placeholder="Email">
-                <input type="text" name="Subject" placeholder="Message Title">
-                <textarea placeholder="Send a message"></textarea>
+                <input type="text" name="Name" placeholder="Name" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <input type="text" name="Subject" placeholder="Message Title" required>
+                <textarea name="Message" placeholder="Send a message" required></textarea>
                 <input type="submit" value="Send Message">
             </form>
         </div>
     </div>
-    <div class="projects">
+    <div class="projects" id="projects">
         <h3>Recent Projects</h3>
         <div class="project">
         <div>

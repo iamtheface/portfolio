@@ -67,7 +67,8 @@ nav {
 
 .project div {
     width: 35em;
-    height: 20em;
+    height: 18em;
+
 }
 
 .nav {
@@ -92,11 +93,11 @@ nav {
     padding: 0;
     background-color: #124a75;
     overflow: hidden;
-    transition: 1s;
+    transition: ;
 }
 
 .nav ul a li {
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .nav ul li {
